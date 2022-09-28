@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT = """Hello {},
+    START_TXT = """Hai {},
 
 Group Mirror Kami <a href=https://t.me/{}>{}</a>!
 
