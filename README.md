@@ -1,4 +1,4 @@
-# Telegram Movie Bot
+# Telegram Pea Masamba IMDB
 
 ## Features
 
