@@ -1,11 +1,11 @@
 class Script(object):
     START_TXT = """Hello {},
 
-My name is <a href=https://t.me/{}>{}</a>!
+Group Mirror Kami <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>Jangan lupa selalu mendukung Subtitle dan Youtube kami ya. :)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+Selalu ikuti dan dapatkan info terbaru dari kami..</b>"""
 
     HELP_TXT = """Hey {}
 
@@ -279,7 +279,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/Collection_MovieTerbaik</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
@@ -308,7 +308,7 @@ Music download modules, for those who love music.
 
 <b>YouTube Thumbnail Download</b>
 • /ytthumb (youtube link)
-<b>Example:</b> <code>/ytthumb https://youtu.be/h6PtzFYaMxQ</code>
+<b>Example:</b> <code>/ytthumb https://www.youtube.com/channel/UCY_wjZw4ibkWhj9HnECfksw</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
