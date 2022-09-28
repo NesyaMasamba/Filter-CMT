@@ -57,7 +57,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Projects Channels 👇</b>",
+                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Pea Masamba Channels 👇</b>",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -176,7 +176,7 @@ async def gen_invite(bot, message):
 
 @Client.on_message(filters.command('ban_user') & filters.user(ADMINS))
 async def ban_a_user(bot, message):
-    # https://t.me/Josprojects/
+    # https://t.me/Collection_MovieTerbaik/
     if len(message.command) == 1:
         return await message.reply('Give me a user id / username')
     r = message.text.split(None)
@@ -243,7 +243,7 @@ async def unban_a_user(bot, message):
     
 @Client.on_message(filters.command('users') & filters.user(ADMINS))
 async def list_users(bot, message):
-    # https://t.me/Josprojects/
+    # https://t.me/Collection_MovieTerbaik/
     raju = await message.reply('Getting List Of Users')
     users = await db.get_all_users()
     out = "Users Saved In DB Are:\n\n"
